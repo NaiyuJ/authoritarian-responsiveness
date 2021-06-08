@@ -10,9 +10,14 @@ The similarity value produced by Word2Vec ranges from -1 to 1 as the highest sim
 
 ## 2. The Applications of Word Vectors in This Project
 
-In this project, I want to find the similarity between sensitive news topics and bill titles. First, I create a model using Word2Vec for the exhaustive list of sensitive news topics. Then, using this model I can create feature vectors for text documents. The script finds and prints out the cosine similarity for each of the input bill titles. Finally, I set the correlation creteria to determine whether a bill title is similar to a sensitive news topic. 
+In this project, I want to find the similarity between sensitive news topics and bill titles. First, I create a model using Word2Vec for the exhaustive list of sensitive news topics. Then, using this model I can create feature vectors for text documents. The script finds and prints out the cosine similarity for each of the input bill titles. Finally, I set the correlation creteria to determine whether a bill title is similar to a sensitive news topic. For scores greater than 0.8, I will set the bills automatically as similar; and for scores greater than 0.5 and less than 0.8, I will check the threshold for the topic manually. 
 
-![alt text][()]
+![alt text](https://github.com/NaiyuJ/authoritarian-responsiveness/blob/main/criteria.png)
+
+Here is an example of my similarity measuring process:
+
+
+
 
 
 
