@@ -1,12 +1,17 @@
-# authoritarian-legislator-responsiveness code
+# authoritarian-legislator-responsiveness main code
 
-This repository contains code for the paper Legislator Responsiveness in China’s National People’s Congress by Naiyu Jiang. These python scripts have been written to find cosine similarity between any two text documents using word2vec.
+This repository contains the main code for the paper Legislator Responsiveness in China’s National People’s Congress by Naiyu Jiang. These python scripts have been written to find cosine similarity between any two text documents (/short sentences) using word2vec.
 
 ## 1. Train Word Vectors：Word2vec
 
-I use Word2vec to train word vectors. Word2vec is a method to efficiently create word embeddings, which are vector representations of a particular word. The word2vec algorithms include skip-gram and CBOW models, using either hierarchical softmax or negative sampling. For details on word2vec, see [this link](https://code.google.com/archive/p/word2vec/).
+I use Word2vec to train word vectors. Word2vec is a method to efficiently create word embeddings, which are vector representations of a particular word. Word2Vec represents words into vector based on several features they have such as windows size and vector dimensions. Similar words tend to have the same vector values and are grouped in the same block. Word2Vec can capture the similarity value between words from the training of a large corpus. The
+resulting similarity value is obtained from the word vector value than calculated using the Cosine Similarity equation.
+The similarity value produced by Word2Vec ranges from -1 to 1 as the highest similarity value. For details on word2vec, see [this link](https://code.google.com/archive/p/word2vec/).
 
-## 2. The Applications of Word Vectors
+## 2. The Applications of Word Vectors in This Project
+
+In this project, I want to find the similarity between sensitive news topics and bill titles. First, I create a model using Word2Vec for the exhaustive list of sensitive news topic. 
+
 
 
 
