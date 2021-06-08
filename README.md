@@ -16,6 +16,8 @@ In this project, I want to find the similarity between sensitive news topics and
 
 Here is an example of my similarity measuring process:
 
+![alt text](https://github.com/NaiyuJ/authoritarian-responsiveness/blob/main/example.png)
+
 
 
 
