@@ -18,8 +18,10 @@ Here is an example of my similarity measuring process:
 
 ![alt text](https://github.com/NaiyuJ/authoritarian-responsiveness/blob/main/example.png)
 
-
-
+## References & Further reading
+1. [Train word2vec in Chinese](https://github.com/hankcs/HanLP/wiki/word2vec)
+2. [Calculating Document Similarities using BERT, word2vec, and other models](https://towardsdatascience.com/calculating-document-similarities-using-bert-and-other-models-b2c1a29c9630)
+3. [Word2vec embeddings](https://radimrehurek.com/gensim/models/word2vec.html)
 
 
 
